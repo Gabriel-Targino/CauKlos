@@ -1,11 +1,10 @@
 {
   "name": "Calculation2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
-    "dev":"npx nodemon index.js"
+    "start": "node index.js",
+    "dev": "npx nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +14,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "description": ""
 }

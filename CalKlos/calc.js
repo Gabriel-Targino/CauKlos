@@ -1,19 +1,19 @@
 
 function calculadora (prim,seg,ope){
-    if (ope === "multiplicacao"){
+    if (ope === "*"){
         return(prim*seg)
     }
-    else if (ope === "soma"){
+    else if (ope === "+"){
         return(prim+seg)
     }
-    else if (ope === "divisao"){
+    else if (ope === "/"){
         return(prim/seg)
     }
-    else if (ope === "subtracao"){
+    else if (ope === "-"){
         return(prim-seg)
     }
     else{
-        return("operaçao inexistente")
+        return("Operação Inexistente")
     }
 }
 
