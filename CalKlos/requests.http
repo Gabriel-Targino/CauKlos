@@ -1,0 +1,10 @@
+### Calculation
+
+POST  http://127.0.0.1:3000/calculadora
+Content-Type: application/json
+
+{
+    "prim": 10000,
+    "seg": 10000,
+    "ope": "divisao"
+}
