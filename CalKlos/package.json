@@ -1,19 +1,17 @@
 {
-  "name": "Calculation2",
+  "name": "CalKlos",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "npx nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
-  "description": ""
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sqlite-async": "^1.1.0"
+  }
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="shortcut icon" HREF="https://i.imgur.com/Btv0IdQ.png">
+  <link href="calc.css" rel="stylesheet">
+	<h1 id="h1">CALKLUS</h1>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CALKLUS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	
+  </head>
+  <body>
+	
+			<table id="calc" border="0">
+				<tr>
+					<td> <input type="text" name="val1" id="val1"></td>
+					<td>
+						<select name="sinal" id="sinal">
+							<option value="+">+</option>
+							<option value="-">-</option>
+							<option value="*">*</option>
+							<option value="/">/</option>
+						</select>
+						<input type="text" name="val2" id="val2"></td><br>
+
+					</td>
+					<td> <input id="salvar" type="button" value="=" onclick="calcular();" name=""></td>
+					<td> <input type="text" name="val1" id="resultado"></td>
+			</tr>
+		</table>
+
+    <script src="calc.js"></script>
+  </body>
+</html>

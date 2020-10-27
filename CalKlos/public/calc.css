@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: rgb(53, 80, 69);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    background-color: rgb(255, 255, 255);
+}
+body{
+    background-image:url("https://i.imgur.com/KjvPJ7O.png");
+    background-repeat: inherit;
+    background-attachment:fixed;
+	background-size:cover;
+    background-repeat:space;
+	height:cover;
+	font-size:22px;
+	background-position:fixed;
+	animation-duration: 60s;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+table{
+    text-align: center;
+    margin-left: 305px;
+    display: inline;
+    width: 100%;
+    margin-bottom : 1000px;
+    table-layout: relative;
+
+  }

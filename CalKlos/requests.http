@@ -5,6 +5,6 @@ Content-Type: application/json
 
 {
     "prim": 10000,
-    "seg": 10000,
+    "seg": 10,
     "ope": "+"
 }
